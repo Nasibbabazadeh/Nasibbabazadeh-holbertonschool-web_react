@@ -1,11 +1,9 @@
-/* Position the counter text to the right of the button */
 #count {
     display: inline-block;
     font-weight: bold;
     margin-left: 10px;
 }
 
-/* Set logo styling */
 #logo {
     width: 200px;
     height: 200px;
