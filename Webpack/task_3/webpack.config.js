@@ -42,7 +42,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, 'index.html'),
+            template: path.resolve(__dirname, 'index.html'), // Ensure correct file path
         }),
     ],
     optimization: {
